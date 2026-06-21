@@ -236,10 +236,10 @@ function ComingSoon() {
   const items = [
     ['Messaging', <MessageSquare />],
     ['Load Negotiation', <Truck />],
-    ['Route Surveys', <Map />],
+    ['Mobile Apps', <Map />],
     ['Preferred Pilots', <Users />],
-    ['Quick Pay', <CreditCard />],
-    ['Factoring Services', <ShieldCheck />],
+    ['Broker Directory', <CreditCard />],
+    ['Pilot Profiles', <ShieldCheck />],
   ];
   return <section className="section dark"><div className="container">
     <div className="sectionHeader"><p className="eyebrow">Coming Soon</p><h2>More tools for real-world load coordination.</h2></div>
