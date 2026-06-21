@@ -83,8 +83,8 @@ function Home({ go }) {
         <div className="container heroGrid">
           <div>
             <p className="eyebrow">Nationwide Oversize Load Escort Marketplace</p>
-            <h1>Find Qualified Pilot Cars Faster</h1>
-            <p className="subhead">Connect with certified pilot cars, pole cars, route surveyors, and steermen nationwide.</p>
+            <h1>Find Pilots. Cover Loads.</h1>
+            <p className="subhead">The nationwide marketplace for all pilot car services.</p>
             <div className="heroActions">
               <button className="primary" onClick={() => go('For Pilots')}>Join as a Pilot <ArrowRight size={18} /></button>
               <button className="secondary" onClick={() => go('For Brokers')}>Join as a Broker</button>
@@ -119,8 +119,8 @@ function Home({ go }) {
 
       <section className="splitSection">
         <div className="container split">
-          <BenefitBlock title="For Brokers" items={['Post loads quickly','Find qualified escorts','Build preferred pilot lists','Fill positions faster','Manage pilot relationships']} />
-          <BenefitBlock title="For Pilots" items={['Find available loads','Connect with brokers','Display certifications','Build professional profiles','Grow your business']} />
+          <BenefitBlock title="For Brokers" items={['Find qualified escorts','Build preferred pilot lists','Review certifications']} />
+          <BenefitBlock title="For Pilots" items={['Connect with brokers','Display certifications','In-app rate con & invoicing']} />
         </div>
       </section>
 
