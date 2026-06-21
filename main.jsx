@@ -67,7 +67,7 @@ function App() {
           </div>
           <div>
             <h4>Coming Soon</h4>
-            <p>Messaging, load negotiation, route surveys, preferred pilots, quick pay, and factoring services.</p>
+            <p>Messaging, load negotiation, pilot profiles, preferred pilots, certification management, and mobile apps.</p>
           </div>
         </div>
         <div className="container copyright">© {new Date().getFullYear()} PCLoadHub. All rights reserved.</div>
