@@ -1,4 +1,6 @@
 {
+  "name": "pcloadhub-website",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,6 +11,7 @@
     "vite": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "react-router-dom": "latest",
     "lucide-react": "latest"
   },
   "devDependencies": {}

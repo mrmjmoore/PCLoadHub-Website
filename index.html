@@ -4,10 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PCLoadHub | The Pilot Car Marketplace</title>
-    <meta name="description" content="PCLoadHub connects brokers, carriers, and qualified pilot car operators through a nationwide marketplace for oversize load escorts." />
+    <meta name="description" content="PCLoadHub connects pilot car operators, heavy-haul carriers, and freight brokers in one nationwide marketplace built for the oversize and overweight transportation industry. Free to join." />
+    <meta name="theme-color" content="#111827" />
+    <meta property="og:title" content="PCLoadHub | The Pilot Car Marketplace" />
+    <meta property="og:description" content="Find pilots. Cover loads. The nationwide marketplace for pilot car operators, brokers, and carriers." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
+
+    <!--
+      Hidden static forms below exist so Netlify's build-time bots can detect
+      these Netlify Forms. The real forms rendered to users live in
+      pages/Contact.jsx and pages/DeleteAccount.jsx (React renders forms
+      client-side, but Netlify only scans the built static HTML, so a plain
+      HTML copy with matching name + field names has to exist here too).
+      Do not remove, and keep field names in sync with those two files.
+    -->
+    <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="company" />
+      <input name="email" type="email" />
+      <input name="phone" type="tel" />
+      <select name="userType">
+        <option>Pilot Car Operator</option>
+        <option>Broker</option>
+        <option>Carrier</option>
+        <option>Other</option>
+      </select>
+      <textarea name="message"></textarea>
+    </form>
+
+    <form name="delete-account-request" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="delete-account-request" />
+      <input name="bot-field" />
+      <input name="name" />
+      <input name="email" type="email" />
+      <textarea name="message"></textarea>
+    </form>
+
     <script type="module" src="/main.jsx"></script>
   </body>
 </html>
