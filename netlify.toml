@@ -6,3 +6,6 @@
   from = "/*"
   to = "/index.html"
   status = 200
+
+# Netlify Forms was enabled for this site after the previous deploy;
+# this commit forces a rebuild so form detection re-scans index.html.
